@@ -3,4 +3,4 @@ function sayHello(name) {
   return `Hello, ${name}!`;
 }
 
-console.log(sayHello("GitHub111"));
+console.log(sayHello("GitHub"));
