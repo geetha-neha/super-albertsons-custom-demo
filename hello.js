@@ -1,6 +1,15 @@
 // file: hello.js
+
+/**
+ * Returns a greeting message for the given name.
+ *
+ * @param {string} name - The name to greet
+ * @returns {string} Greeting message
+ */
 function sayHello(name) {
-  return `Hello, ${name}`;
+  return `Hello, ${name}!`;
 }
 
-console.log(sayHello("GitHubTestt"));
+// Example usage
+const userName = "GitHubTest";
+console.log(sayHello(userName));
