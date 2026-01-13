@@ -48,7 +48,7 @@ function findUserByEmail(email) {
 // Example usage
 try {
   addUser("Alice", "alice@example.com");
-  addUser("Bob", "bob@example.com");
+  addUser("Bob", "bob1@example.com");
 
   console.log("All users:", getUsers());
   console.log("Find Bob:", findUserByEmail("bob@example.com"));
